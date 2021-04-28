@@ -14,3 +14,6 @@ EXPLAIN
 SELECT *
 FROM customers
 WHERE customerNumber = 175;
+
+ALTER TABLE customers
+    DROP INDEX idx_customerNumber;
